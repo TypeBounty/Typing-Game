@@ -583,7 +583,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Collab: 1
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -604,10 +604,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 6625ff74-efcd-4195-85d5-0e07ba72e989
+  cloudProjectId: a7d22182-7bff-4b3a-8d64-7255dccdd0e0
   framebufferDepthMemorylessMode: 0
-  projectName: Type Bounty
-  organizationId: chavezjoshua6
+  projectName: Type Bounty (2)
+  organizationId: aandreszzamora
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
