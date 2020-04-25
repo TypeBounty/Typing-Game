@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/C++/Info C++ SCENES-IMAGES/C++/Info C++ SCENES/HelloWorld1.unity
     guid: e0fb5cc77bd1ff14f90bb7a8255d6613
