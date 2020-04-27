@@ -39,7 +39,7 @@ public class SymWord
         if (wordTyped)
         {
             //Update Score
-            TopScore.scoreVal++;
+            SymScore.scoreVal++;
 
             //Update Position of Ship
 
