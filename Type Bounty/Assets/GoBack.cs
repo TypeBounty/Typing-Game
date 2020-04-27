@@ -9,13 +9,13 @@ public class GoBack : MonoBehaviour
 
     public void JumpBack()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 17);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 13);
     }
 
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
 
