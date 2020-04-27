@@ -41,6 +41,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 15);
     }
+    public void TopRowWM()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 16);
+    }
     public void QuitGame()
     {
         Debug.Log("QUIT!");
