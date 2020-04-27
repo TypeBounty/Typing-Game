@@ -56,4 +56,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Top/TopWM.unity
     guid: f1066774f1f554de289d01935bfba556
+  - enabled: 1
+    path: Assets/Lessons&Quizzes/C++/QuizScenes/MenuScreen.unity
+    guid: c3abf00bbb65bec4d8098d9eb2067582
+  - enabled: 1
+    path: Assets/Lessons&Quizzes/C++/QuizScenes/Game.unity
+    guid: d61534c46086a584dace84a51e88c018
   m_configObjects: {}
