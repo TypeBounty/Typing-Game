@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class SymWordGenerator : MonoBehaviour
 {
-    private static string[] wordList = { "taken", "ripe", "tough", "coding", "switch", "boring", "high", "spike", "ein", "swordfish",
-                                         "direct", "help", "next", "kitana", "lobster", "milk", "squid", "torture", "guitar", "met",
-                                         "chord", "chili", "quater", "basement", "replica", "shower", "fava", "tars", "vicious"};
+    private static string[] wordList = { "`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=",
+                                         "+", ";", ":", "'", "\"", "[", "{", "]", "}", ",", "<", ".", ">", "/", "?"};
 
     public static string GetRandomWord()
     {
