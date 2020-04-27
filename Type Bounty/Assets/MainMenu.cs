@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
-
+   
     public void HelloWorld()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -14,29 +13,33 @@ public class MainMenu : MonoBehaviour
 
     public void DataTypes()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     }
+
 
     public void Loops()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 12);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
     }
 
     public void WordCanvas()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 18);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 12);
     }
+
     public void TypingGameInstructions()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 13);
     }
+   
+   
     public void Game1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 19);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 14);
     }
     public void LeftRightGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 20);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 15);
     }
     public void QuitGame()
     {
