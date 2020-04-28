@@ -51,7 +51,7 @@ EditorBuildSettings:
     path: Assets/Game1.unity
     guid: 185da70e71ecc644da189ae16a5c5a8d
   - enabled: 1
-    path: Assets/Scenes/LeftRightGame.unity
+    path: Assets/LR Scripts/LeftRightGame.unity
     guid: 7971ba2a4671a4042be99a1462bded01
   - enabled: 1
     path: Assets/Top/TopWM.unity
