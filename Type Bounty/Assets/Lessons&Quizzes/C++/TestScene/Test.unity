@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allRoundData:
   - name: Round Zero
-    timeLimitInSeconds: 30
+    timeLimitInSeconds: 100
     pointsAddedForCorrectAnswer: 10
     questions:
     - questionText: When will the else statement run?
@@ -233,9 +233,9 @@ MonoBehaviour:
         isCorrect: 1
     - questionText: What is the use of ({)
       answers:
-      - answerText: What is the use of ({)
+      - answerText: indicating the end of function
         isCorrect: 0
-      - answerText: What is the use of ({)
+      - answerText: helps with integers
         isCorrect: 0
       - answerText: indicating the beginning of function
         isCorrect: 1
