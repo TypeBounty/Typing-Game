@@ -190,12 +190,12 @@ MonoBehaviour:
         isCorrect: 0
     - questionText: Difference between a while & a do-while loop?
       answers:
-      - answerText: There are no differences
+      - answerText: There are no difference.
         isCorrect: 0
-      - answerText: do-while loops at least once even if condition is false & while
-          loop runs only when true
+      - answerText: do-while loops run at least once even if condition is false &
+          while loop runs only when true
         isCorrect: 1
-      - answerText: while loops at least once even if condition is false & Do-while
+      - answerText: while loops run at least once even if condition is false & Do-while
           stops if its false
         isCorrect: 0
       - answerText: Do-while only loop once in the whole operation & the while loops

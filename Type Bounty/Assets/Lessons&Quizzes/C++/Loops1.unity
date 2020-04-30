@@ -1066,7 +1066,7 @@ MonoBehaviour:
 
     Based on whether or not a condition is true, that a certain statement will run.
 
-    If statement runs when the conditition is true.
+    If statement runs when the condition is true.
 
     Else statement runs when the condition is false.'
 --- !u!222 &1694307371
