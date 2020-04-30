@@ -1,4 +1,3 @@
-﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,9 +9,6 @@ public class BotCountDown : MonoBehaviour
     public Text time;
 
     private void Start()
-    {
-        targetTime = 30.0f;
-        UpdateTimeRemainingDisplay();
     }
 
 

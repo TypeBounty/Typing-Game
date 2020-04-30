@@ -39,7 +39,7 @@ public class MainMenu : MonoBehaviour
     }
     public void LeftRightGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 15);
+        SceneManager.LoadScene("LRGameInstructions");
     }
     public void TopRowWM()
     {

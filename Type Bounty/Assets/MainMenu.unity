@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 53551867}
   - component: {fileID: 53551866}
   m_Layer: 5
-  m_Name: TopRowImage
+  m_Name: midRowImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: db0a4166eb9a771449ff8953b49d9366, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fe15faa1a92e5e44bea2b188ca4d055, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10196,7 +10196,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ca24fa9fc05c26140aa25fe4108f4a3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78027fd8458130442ac1961f3d51e2c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
