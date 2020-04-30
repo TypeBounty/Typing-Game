@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TopWordGenerator : MonoBehaviour
 {
-    private static string[] wordList = { "taken", "ripe", "tough", "coding", "switch", "boring", "high", "spike", "ein", "swordfish",
-                                         "direct", "help", "next", "kitana", "lobster", "milk", "squid", "torture", "guitar", "met",
-                                         "chord", "chili", "quater", "basement", "replica", "shower", "fava", "tars", "vicious"};
+    private static string[] wordList = { "q", "w", "e", "r", "t", "y", "u", "i", "o", "p",
+                                         "quiet", "quit", "quite", "were", "Europe", "ripe", "rope", "trip", "tore", "trope",
+                                         "tour", "route", "yet", "up", "it", "owe", "port", "power", "pour"};
 
     public static string GetRandomWord()
     {

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class WordDisplay : MonoBehaviour
 {
     public Text text;
-    public float fallSpeed = 1f;
+    public float fallSpeed = .5f;
     public static float wordPosx;
     public static float wordPosy;
     public static bool moveShip = false;
@@ -36,7 +36,7 @@ public class WordDisplay : MonoBehaviour
     {
         transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
         
-       /* if(transform.position.y <= -100f)
+      /* if(transform.position.y <= -100f)
         {
            // WordManager.getOut();
             removeWord();

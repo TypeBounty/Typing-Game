@@ -9,7 +9,7 @@ public class LRWordSpawner : MonoBehaviour
 
    public LRWordDisplay SpawnWord()
     {
-        Vector3 randomPosition = new Vector3(0f, .5f);
+        Vector3 randomPosition = new Vector3(960f, 540f);
 
         GameObject wordObj = Instantiate(wordPrefab,randomPosition, Quaternion.identity, wordCanvas);
         LRWordDisplay wordDisplay = wordObj.GetComponent<LRWordDisplay>();
