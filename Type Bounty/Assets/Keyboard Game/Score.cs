@@ -8,18 +8,15 @@ public class Score : MonoBehaviour
 {
     public static int scoreVal;
     public Text score;
-    public int scores;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
-        scores = scoreVal;
-        score.text = "Score: " + scores;
         scoreVal = 0;
         score = GetComponent<Text>();
-
-        
+       // ScoreDisplayWM.scene = 1;
     }
 
 
@@ -27,7 +24,6 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scores = scoreVal;
         score.text = "Score: " + scoreVal;
         if(scoreVal == 10)
         {
