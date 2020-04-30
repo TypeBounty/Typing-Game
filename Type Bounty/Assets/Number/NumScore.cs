@@ -22,7 +22,7 @@ public class NumScore : MonoBehaviour
         score.text = "Score: " + scoreVal;
         if (scoreVal == 2)
         {
-            SceneManager.LoadScene("NumScoreScreen");
+           // SceneManager.LoadScene("NumScoreScreen");
         }
     }
 }

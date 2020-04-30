@@ -22,7 +22,7 @@ public class TopScore : MonoBehaviour
         score.text = "Score: " + scoreVal;
         if (scoreVal == 2)
         {
-            SceneManager.LoadScene("TopScoreScreen");
+            //SceneManager.LoadScene("TopScoreScreen");
         }
     }
 }
