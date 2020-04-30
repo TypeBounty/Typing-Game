@@ -9,7 +9,7 @@ public class LRWordGenerator : MonoBehaviour
         "using namespace std;" +
         "\n\n" +
         "int main()" +
-        "{\n\n " +
+        "{\n\n" +
         "\t" +
         "int i = 0;\n\n" +
         "\tcout << i << endl;\n\n" +
