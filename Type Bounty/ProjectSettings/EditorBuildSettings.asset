@@ -83,4 +83,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Symbols/SymScoreScreen.unity
     guid: bb0107cbcdc954b6985cbba2793194f1
+  - enabled: 1
+    path: Assets/BottomWM/BOTwm.unity
+    guid: 7d3ede390f09f6e43a89bb46f025a5f0
+  - enabled: 1
+    path: Assets/Number/NumberWM.unity
+    guid: 1040ebf0c37ca954ab15c0aaa8b4067c
+  - enabled: 1
+    path: Assets/Symbols/SymWM.unity
+    guid: 941fa43de0670417a98798f239e41e14
   m_configObjects: {}
