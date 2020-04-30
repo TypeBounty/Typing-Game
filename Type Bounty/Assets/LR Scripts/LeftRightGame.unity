@@ -420,8 +420,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "#include<iostream>\nusing namespace std;\n\nint main(){\n\n\tint i = 0;\n\n\tcout
-    << i << endl;\n\n\ti = i + 1;\n\n\tcout << i << endl;\n\n\treturn(0);\n}"
+  m_Text: "#include<iostream> [enter]\nusing namespace std; [enter][enter]\n\nint
+    main(){ [enter][enter][tab]\n\n\tint i = 0; [enter][enter]\n\n\tcout << i << endl;
+    [enter][enter]\n\n\ti = i + 1; [enter][enter]\n\n\tcout << i << endl; [enter][enter]\n\n\treturn(0);
+    [enter]\n} [enter]"
 --- !u!222 &649762251
 CanvasRenderer:
   m_ObjectHideFlags: 0
