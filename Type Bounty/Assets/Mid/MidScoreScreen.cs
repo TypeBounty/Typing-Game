@@ -2,27 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class NumScore : MonoBehaviour
+
+public class MidScoreScreen : MonoBehaviour
 {
-    public static int scoreVal = 0;
+    public static int scoreVal2;
     public Text score;
+    public int scores;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        scoreVal = 0;
+        scoreVal2 = MidScore.scoreVal;
         score = GetComponent<Text>();
+
     }
+
+
 
     // Update is called once per frame
     void Update()
     {
-        score.text = "Score: " + scoreVal;
-        if (scoreVal == 2)
+        score.text = "Score: " + scoreVal2;
+        if (scoreVal2 == 10)
         {
-            SceneManager.LoadScene("NumScoreScreen");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
     }
 }

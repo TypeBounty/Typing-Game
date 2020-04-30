@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 public class ScoreToGame : MonoBehaviour
 {
     // Start is called before the first frame update
-   public void JumpShip()
+    public void JumpShip()
     {
         SceneManager.LoadScene("WordManager2");
-    }
 
-    
-}
+        /*switch scene
+        case 1: SceneManager.LoadScene("WordManager2");
+        case 2: SceneManager.LoadScene("TopWM");*/
+
+        }
+
+    }

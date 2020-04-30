@@ -7,7 +7,7 @@ public class ScoreDisplayWM : MonoBehaviour
 {
     public static int scoreVal2;
     public Text score;
-    public int scores;
+   
 
 
     // Start is called before the first frame update
@@ -18,10 +18,10 @@ public class ScoreDisplayWM : MonoBehaviour
 
     }
 
+     
 
-
-    // Update is called once per frame
-    void Update()
+// Update is called once per frame
+void Update()
     {
         score.text = "Score: " + scoreVal2;
         if (scoreVal2 == 10)
