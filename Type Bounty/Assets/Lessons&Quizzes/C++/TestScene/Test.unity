@@ -165,7 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allRoundData:
   - name: Round Zero
-    timeLimitInSeconds: 30
+    timeLimitInSeconds: 100
     pointsAddedForCorrectAnswer: 10
     questions:
     - questionText: When will the else statement run?
@@ -210,4 +210,86 @@ MonoBehaviour:
       - answerText: Needs a condition & a while loop
         isCorrect: 0
       - answerText: Declare a variable type, a condition, and incrementing a variable
+        isCorrect: 1
+    - questionText: What is the purpose of main?
+      answers:
+      - answerText: <<
+        isCorrect: 0
+      - answerText: Stores string value
+        isCorrect: 0
+      - answerText: Equivalent to ending a sentense with a period
+        isCorrect: 0
+      - answerText: Its purpose is to run when the program is called.
+        isCorrect: 1
+    - questionText: Why is the semicolon used?
+      answers:
+      - answerText: '#include<iostream>'
+        isCorrect: 0
+      - answerText: using namespace std
+        isCorrect: 0
+      - answerText: /**/
+        isCorrect: 0
+      - answerText: Equivalent to ending a sentense with a period
+        isCorrect: 1
+    - questionText: What is the use of ({)
+      answers:
+      - answerText: indicating the end of function
+        isCorrect: 0
+      - answerText: helps with integers
+        isCorrect: 0
+      - answerText: indicating the beginning of function
+        isCorrect: 1
+      - answerText: Stores string value
+        isCorrect: 0
+    - questionText: Why is the (}) needed?
+      answers:
+      - answerText: <<
+        isCorrect: 0
+      - answerText: indicates the ending of function
+        isCorrect: 0
+      - answerText: Its purpose is to run when the program is called
+        isCorrect: 0
+      - answerText: indicates the ending of function
+        isCorrect: 1
+    - questionText: What does Boolean type represent?
+      answers:
+      - answerText: Represents a variable whose value is either  TRUE OR FALSE
+        isCorrect: 1
+      - answerText: Represents ONLY FALSE
+        isCorrect: 0
+      - answerText: Represents ONLY TRUE
+        isCorrect: 0
+      - answerText: Represents a string value
+        isCorrect: 0
+    - questionText: What is the difference between an int & a float?
+      answers:
+      - answerText: There is no difference between both kinds of data types
+        isCorrect: 0
+      - answerText: An int holds a whole number & float holds a numeric value with
+          a decimal point.
+        isCorrect: 1
+      - answerText: An int holds numeric value that has decimal point & a float holds
+          whole numbers
+        isCorrect: 0
+      - answerText: An int holds a character & a float will hold either TRUE or FALSE
+        isCorrect: 0
+    - questionText: Is the value of a string '10' the same as the value of float 10.0?
+      answers:
+      - answerText: No, because the string 10 is missing a .0 at the end
+        isCorrect: 0
+      - answerText: Yes, as they both share the same number
+        isCorrect: 0
+      - answerText: Yes, for string and float are considered the same
+        isCorrect: 0
+      - answerText: No, for strings and float values are not considered the same
+        isCorrect: 1
+    - questionText: Which of the following words is considered a string?
+      answers:
+      - answerText: 4
+        isCorrect: 0
+      - answerText: 764.3
+        isCorrect: 0
+      - answerText: TRUE
+        isCorrect: 0
+      - answerText: '"Hello World"'
         isCorrect: 1

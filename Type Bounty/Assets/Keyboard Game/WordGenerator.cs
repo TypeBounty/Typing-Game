@@ -5,9 +5,9 @@ using UnityEngine;
 public class WordGenerator : MonoBehaviour
 {
 
-    private static string[] wordList = { "taken", "ripe", "tough", "coding", "switch", "boring", "high", "spike", "ein", "swordfish",
-                                         "direct", "help", "next", "kitana", "lobster", "milk", "squid", "torture", "guitar", "met",
-                                         "chord", "chili", "quater", "basement", "replica", "shower", "fava", "tars", "vicious"};
+    private static string[] wordList = { "int", "float", "string", "boolean", "bool", "#include<iostream>", "main()", "for()", "while()",
+                                         "do{}while()",";", "if()", "if(){}else{}", "double", "#include<string>", "cout <<", "cin >>",
+                                         "int x;", "//comment", "/*comments*/", "return(0);", "char"};
 
     public static string GetRandomWord()
     {

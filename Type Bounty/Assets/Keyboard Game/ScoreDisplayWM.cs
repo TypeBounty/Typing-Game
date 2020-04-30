@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class Score : MonoBehaviour
+public class ScoreDisplayWM : MonoBehaviour
 {
-    public static int scoreVal;
+    public static int scoreVal2;
     public Text score;
     public int scores;
 
@@ -14,12 +13,9 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scores = scoreVal;
-        score.text = "Score: " + scores;
-        scoreVal = 0;
+        scoreVal2 = Score.scoreVal;
         score = GetComponent<Text>();
 
-        
     }
 
 
@@ -27,9 +23,8 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scores = scoreVal;
-        score.text = "Score: " + scoreVal;
-        if(scoreVal == 10)
+        score.text = "Score: " + scoreVal2;
+        if (scoreVal2 == 10)
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
