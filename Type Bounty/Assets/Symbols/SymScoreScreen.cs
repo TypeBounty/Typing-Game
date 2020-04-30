@@ -1,18 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SymScoreScreen : MonoBehaviour
 {
-    public static int scoreVal2;
-    public Text score;
-    public int scores;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
         scoreVal2 = SymScore.scoreVal;
         score = GetComponent<Text>();
 
