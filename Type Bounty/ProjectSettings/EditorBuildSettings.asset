@@ -80,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Number/NumScoreScreen.unity
     guid: bf658392659434c9f93b2d658192c20c
+  - enabled: 1
+    path: Assets/Symbols/SymScoreScreen.unity
+    guid: bb0107cbcdc954b6985cbba2793194f1
   m_configObjects: {}
