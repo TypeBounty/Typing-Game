@@ -22,7 +22,7 @@ public class MidScore : MonoBehaviour
         score.text = "Score: " + scoreVal;
         if (scoreVal == 2)
         {
-            SceneManager.LoadScene("MidScoreScreen");
+            //SceneManager.LoadScene("MidScoreScreen");
         }
     }
 }

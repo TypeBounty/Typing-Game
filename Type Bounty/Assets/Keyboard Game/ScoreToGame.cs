@@ -16,4 +16,29 @@ public class ScoreToGame : MonoBehaviour
 
         }
 
+    public void Returntowmtop()
+    {
+        SceneManager.LoadScene("TopWM");
+
     }
+    public void Returntowmmid()
+    {
+        SceneManager.LoadScene("MidWM");
+
+    }
+    public void Returntowmbot()
+    {
+        SceneManager.LoadScene("BOTwm");
+
+    }
+    public void Returntownum()
+    {
+        SceneManager.LoadScene("NumberWM");
+
+    }
+    public void Returntowmsym()
+    {
+        SceneManager.LoadScene("SymWM");
+
+    }
+}
