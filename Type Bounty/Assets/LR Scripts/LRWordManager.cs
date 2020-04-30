@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -87,6 +88,7 @@ public class LRWordManager : MonoBehaviour
             hasActiveWord = false;
             PlayFeedbackSound(AudioClipType.GoodWord);
             words.Remove(activeWord);
+            SceneManager.LoadScene("MainMenu");
         }
 
     }
