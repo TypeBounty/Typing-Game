@@ -11,7 +11,7 @@ public class SymCountDown : MonoBehaviour
 
     private void Start()
     {
-        targetTime = 30.0f;
+        targetTime = 2.0f;
         UpdateTimeRemainingDisplay();
     }
 
