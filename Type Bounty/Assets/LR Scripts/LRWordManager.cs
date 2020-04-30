@@ -88,7 +88,7 @@ public class LRWordManager : MonoBehaviour
             hasActiveWord = false;
             PlayFeedbackSound(AudioClipType.GoodWord);
             words.Remove(activeWord);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("LR_Game_Passed");
         }
 
     }

@@ -93,6 +93,6 @@ EditorBuildSettings:
     path: Assets/Symbols/SymWM.unity
     guid: 941fa43de0670417a98798f239e41e14
   - enabled: 1
-    path: Assets/LRGameInstructions.unity
+    path: Assets/LR Scripts/LRGameInstructions.unity
     guid: a59396324a260dd48b0bbf5fb5293e50
   m_configObjects: {}
