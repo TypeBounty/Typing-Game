@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MidScore : MonoBehaviour
 {
     public static int scoreVal = 0;
-    Text score;
+    public Text score;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +20,9 @@ public class MidScore : MonoBehaviour
     void Update()
     {
         score.text = "Score: " + scoreVal;
-        if (scoreVal == 10)
+        if (scoreVal == 2)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+            SceneManager.LoadScene("MidScoreScreen");
         }
     }
 }
