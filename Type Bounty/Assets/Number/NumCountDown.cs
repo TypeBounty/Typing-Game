@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine;
 
-public class CountDown : MonoBehaviour
+public class NumCountDown : MonoBehaviour
 {
     public float targetTime;
     public Text time;
 
     private void Start()
     {
-        targetTime = 60.0f;
+        targetTime = 30.0f;
         UpdateTimeRemainingDisplay();
     }
 
@@ -29,7 +29,7 @@ public class CountDown : MonoBehaviour
         if (targetTime <= 0.0f)
         {
             //timerEnded();
-            SceneManager.LoadScene("WordMangerScoreScreen");
+            SceneManager.LoadScene("NumScoreScreen");
         }
     }
 }

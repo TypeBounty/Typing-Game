@@ -22,7 +22,7 @@ public class BotScore : MonoBehaviour
         score.text = "Score: " + scoreVal;
         if (scoreVal == 2)
         {
-            SceneManager.LoadScene("BotScoreScreen");
+            //SceneManager.LoadScene("BotScoreScreen");
         }
     }
 }
