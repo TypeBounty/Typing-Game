@@ -11,7 +11,7 @@ public class BotCountDown : MonoBehaviour
 
     private void Start()
     {
-        targetTime = 2.0f;
+        targetTime = 30.0f;
         UpdateTimeRemainingDisplay();
     }
 
