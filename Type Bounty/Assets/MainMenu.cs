@@ -43,7 +43,23 @@ public class MainMenu : MonoBehaviour
     }
     public void TopRowWM()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 16);
+        SceneManager.LoadScene("TopWM");
+    }
+    public void MidRowWM()
+    {
+        SceneManager.LoadScene("MidWM");
+    }
+    public void BotRowWM()
+    {
+        SceneManager.LoadScene("BOTwm");
+    }
+    public void SymRowWM()
+    {
+        SceneManager.LoadScene("SymWM");
+    }
+    public void NumRowWM()
+    {
+        SceneManager.LoadScene("NumberWM");
     }
     public void QuitGame()
     {

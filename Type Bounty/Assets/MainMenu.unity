@@ -177,7 +177,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9fe15faa1a92e5e44bea2b188ca4d055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e538aed1a28241559a03bc9225e65d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TypingGameInstructions
+      - m_Target: {fileID: 196673292}
+        m_MethodName: BotRowWM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2593,13 +2593,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377101622}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1064, y: 859, z: 0}
-  m_LocalScale: {x: 418.1752, y: 591.3415, z: 1}
+  m_LocalRotation: {x: 0.07939865, y: -0.02768776, z: -0.6773261, w: 0.7308616}
+  m_LocalPosition: {x: 460.8, y: 951, z: 0}
+  m_LocalScale: {x: 87.816795, y: 70.96098, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4.505, y: -8.5390005, z: -85.982}
 --- !u!1 &379108308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,8 +5315,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TypingGameInstructions
+      - m_Target: {fileID: 196673292}
+        m_MethodName: NumRowWM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9931,8 +9931,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TypingGameInstructions
+      - m_Target: {fileID: 196673292}
+        m_MethodName: SymRowWM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10196,7 +10196,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 78027fd8458130442ac1961f3d51e2c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5aef24bb66f8418f88620507c25a337, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10818,8 +10818,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: TypingGameInstructions
+      - m_Target: {fileID: 196673292}
+        m_MethodName: MidRowWM
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12144,7 +12144,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c2d55bec00f0cbd4786aa74121822c27, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c71f21741a514709b68f025ba67592c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13328,7 +13328,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 14908fe4d8f214d418e1a5ea136f6f72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f29f674f08cc448d9a1a3cbfac3978c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
